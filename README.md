@@ -1,6 +1,22 @@
 # An Example of STOMP
 
-Project created to learn the STOMP technology.
+Project created to learn the STOMP technology. To start the project visit [https://start.spring.io/](https://start.spring.io/) and make the following selections:
+ * Project: Maven.
+ * Languaje: Java.
+ * Spring Boot: 3.0.1.
+ * Project Metadata:
+     * Group: com.stomp.example
+     * Artifact: demo
+     * Name: demo
+     * Package name: com.stomp.example.demo
+ * Packaging: jar.
+ * Java: 8.
+ * Dependencies: 
+     * WebSocket
+     * SpringWeb
+ 
+Follow this link to use the above setting automatically: [Sprint Initializr Customized](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.0.1&packaging=jar&jvmVersion=1.8&groupId=com.stomp.example&artifactId=demo&name=demo&description=Demo%20project%20for%20Stomp&packageName=com.stomp.example.demo&dependencies=websocket,web)
+
 Study the code along with the following videos and reference #3:
 1. [Websocket push messages with Spring Boot - STOMP - Part 1](https://www.youtube.com/watch?v=XY5CUuE6VOk&ab_channel=LiliumCode)
 2. [Websocket push messages with Spring Boot - STOMP - Part 2](https://www.youtube.com/watch?v=dFwBJKwkxZE&ab_channel=LiliumCode)
